@@ -8,6 +8,7 @@ class Mailchimp_Marketing:
     def __init__(self,Apikey,server):
         self.Apikey = Apikey
         self.server = server
+
         
     def get_lists(self):
         try:
